@@ -1,0 +1,84 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: orange;
+  color: navy;
+}
+
+a.button {
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  border: 3px solid black;
+  padding: 10px;
+
+}
+
+a.create-link-two {
+  display: inline-block;
+  color: white;
+  border: 3px solid navy;
+  padding: 5px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+a.create-link-one {
+  display: inline-block;
+  color: white;
+  border: 3px solid navy;
+  padding: 5px;
+  -moz-border-radius: 20px 20px 0px 0px;
+  -webkit-border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+td {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+}
+
+body#articles-show {
+  background-color: orange;
+
+  a {
+    border: 2px solid red;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  td.table-title {
+    border-right: 5px solid #310000;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  th {
+    border: 5px solid #310000;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  border-bottom: 5px solid #310000;
+  border-left: 5px solid #310000;
+  td, th {
+    padding: 10px;
+  }
+  td.table-text {
+    border-right: 5px solid #310000;
+  }
+}
+
+td.table-link {
+  border-right: 5px solid #310000;
+}
+
+#error_explanation {
+  border-style: groove;
+  border-color: #c72d2d;
+  border-width: 8px;
+  color: #0098b8;
+}
